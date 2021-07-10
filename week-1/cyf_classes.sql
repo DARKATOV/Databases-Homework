@@ -55,8 +55,8 @@ insert into asistances (studentId, classId, asistanceDate) values (5, 2, '2021-0
 insert into asistances (studentId, classId, asistanceDate) values (1, 3, '2021-06-19 09:28:20');
 insert into asistances (studentId, classId, asistanceDate) values (7, 4, '2021-06-19 09:29:10');
 
-select * from mentors where years_in_glasgow > 5;
-select * from mentors where programmingTop = 'Javascript';
+select * from mentors where years_in_glasgow > 16;
+select * from mentors where programmingTop = 'Phyton';
 select * from students where graduated is true;
 select * from classes where asistanceDate < '2021-06-01 00:00:01';
 select studentId, classId from asistances where classId = 1;
