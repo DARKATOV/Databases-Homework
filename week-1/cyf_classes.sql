@@ -2,7 +2,7 @@ create table mentors (
 	id serial primary key,
 	name varchar(30) not null,
 	yearsInGlasgow	int,
-	address 		varchar(30),
+	address varchar(30),
     programmingTop varchar(10),
 );
 
